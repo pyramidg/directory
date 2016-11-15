@@ -1,2 +1,2 @@
 # directory
-AngularJs 
+AngularJs MVC Directory list with two way data binding 

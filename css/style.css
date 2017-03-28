@@ -73,12 +73,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html {
+
+
   background-color: #023E54;
-  background-image: url('https://c1.staticflickr.com/3/2925/32877580813_55b47335d9_b.jpg');
+  background-image: url('https://c1.staticflickr.com/3/2925/32877580813_55b47335d9_b.jpg')  ;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /*background-image: url(images/fallback-gradient.png);
+/*
+  background-image: url(images/fallback-gradient.png);
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#023E54), to(#10AAC0));
   background-image: -webkit-linear-gradient(top, #009688, #009688);  background-image: -moz-linear-gradient(top, #023E54, #10AAC0);
   background-image: -o-linear-gradient(top, #023E54, #10AAC0);*/
@@ -331,7 +333,11 @@ a.small {
 .artistinfo .btn {
 
 }
-.main{
-
+.title-top{
+text-align: center;
+font-family: fantasy;
+font-size: 400%;
+color: white;
+text-shadow: 2px 2px 4px #000000;
 
 }

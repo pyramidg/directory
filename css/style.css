@@ -26,6 +26,7 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 html {
+
   line-height: 1; }
 
 ol, ul {
@@ -72,12 +73,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 html {
-  
   background-color: #023E54;
-  background-image: url(images/fallback-gradient.png);
+  background-image: url('https://c1.staticflickr.com/3/2925/32877580813_55b47335d9_b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /*background-image: url(images/fallback-gradient.png);
   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#023E54), to(#10AAC0));
   background-image: -webkit-linear-gradient(top, #009688, #009688);  background-image: -moz-linear-gradient(top, #023E54, #10AAC0);
-  background-image: -o-linear-gradient(top, #023E54, #10AAC0);
+  background-image: -o-linear-gradient(top, #023E54, #10AAC0);*/
   min-height: 100%;
   height: auto;
 }
@@ -325,5 +329,9 @@ a.small {
   overflow: hidden;
 }
 .artistinfo .btn {
+
+}
+.main{
+
 
 }

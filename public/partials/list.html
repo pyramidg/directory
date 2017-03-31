@@ -21,6 +21,7 @@
     </label>
 
   </div>
+  
   <ul class="artistlist" ng-show="query">
     <li ng-animate="'animate'" class="artist cf" ng-repeat="item in artists | filter: query | orderBy: artistOrder:direction">
       <a href="#/details/{{artists.indexOf(item)}}">
